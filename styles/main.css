@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  max-width: 50%;
+  margin-top: 3%;
+}
+
+.wrapper .form-input {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 3px;
+}
